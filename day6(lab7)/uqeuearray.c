@@ -11,7 +11,7 @@ void dequeue(){
 
 }
 void main(){
-    int data,ch,n;l
+    int data,ch,n;
     printf("Enter no. of data to fill: ");
     scanf("%d",&n);
     printf("Enter the data: ");
