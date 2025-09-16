@@ -8,10 +8,10 @@ int front,rare;
 int *queue;
 
 void dequeue(){
-    
+
 }
 void main(){
-    int data,ch,n;
+    int data,ch,n;l
     printf("Enter no. of data to fill: ");
     scanf("%d",&n);
     printf("Enter the data: ");
