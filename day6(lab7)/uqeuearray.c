@@ -6,6 +6,10 @@ Traverse, IsEmpty, IsFull operations.*/
 
 int front,rare;
 int *queue;
+
+void dequeue(){
+    
+}
 void main(){
     int data,ch,n;
     printf("Enter no. of data to fill: ");
