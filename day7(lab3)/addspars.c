@@ -4,7 +4,7 @@ struct term {
     int row, col, val;
 };
 
-int main() {
+void main() {
     struct term a[50], b[50], c[100];
     int m, n, t1, t2;
     int i, j, k;
@@ -54,6 +54,4 @@ int main() {
     printf("%d %d %d\n", c[0].row, c[0].col, c[0].val);
     for (i = 1; i <= c[0].val; i++)
         printf("%d %d %d\n", c[i].row, c[i].col, c[i].val);
-
-    return 0;
 }
